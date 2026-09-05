@@ -1,14 +1,9 @@
-/* General page style */
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     color: #222222;
 }
-
-
-/* Header */
 
 header {
     background-color: #222222;
@@ -24,9 +19,6 @@ header h1 {
 header p {
     margin-top: 10px;
 }
-
-
-/* Navigation */
 
 nav {
     background-color: #444444;
@@ -44,17 +36,11 @@ nav a:hover {
     text-decoration: underline;
 }
 
-
-/* Main content */
-
 main {
     width: 90%;
     max-width: 1100px;
     margin: 30px auto;
 }
-
-
-/* Product section */
 
 .products {
     display: flex;
@@ -62,9 +48,6 @@ main {
     justify-content: center;
     flex-wrap: wrap;
 }
-
-
-/* Article */
 
 .product {
     background-color: white;
@@ -86,9 +69,6 @@ main {
     margin-top: 15px;
 }
 
-
-/* Buttons */
-
 button {
     background-color: #222222;
     color: white;
@@ -101,18 +81,12 @@ button:hover {
     background-color: #555555;
 }
 
-
-/* Aside */
-
 aside {
     background-color: white;
     border-left: 5px solid #222222;
     margin-top: 35px;
     padding: 20px;
 }
-
-
-/* Footer */
 
 footer {
     background-color: #222222;
@@ -122,11 +96,7 @@ footer {
     margin-top: 40px;
 }
 
-
-/* Mobile */
-
 @media (max-width: 700px) {
-
     nav a {
         display: block;
         margin: 10px;
